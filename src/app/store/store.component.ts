@@ -4,7 +4,6 @@ import { ProductRepository } from '../model/product.repository'
 import { Cart } from '../model/cart.model'
 import { Router } from '@angular/router'
 
-
 @Component({
   selector: 'store',
   templateUrl: 'store.component.html',
@@ -28,7 +27,7 @@ export class StoreComponent {
   }
 
   changeCategory(newCategory?: string) {
-    
+    // console.log('change categorhy. New value: ' + newCategory)
     this.selectedCategory = newCategory
   }
 
