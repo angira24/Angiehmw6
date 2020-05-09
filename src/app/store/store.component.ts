@@ -12,6 +12,8 @@ export class StoreComponent {
   public selectedCategory = null
   public productsPerPage = 4
   public selectedPage = 1
+  public filter:string;
+  public term: string;
 
   constructor(private repository: ProductRepository, private cart: Cart, private router: Router) {}
 
