@@ -7,10 +7,11 @@ import { CartSummaryComponent } from './cartSummary.component'
 import { CartDetailComponent } from './cartDetail.component'
 import { CheckoutComponent } from './checkout.component'
 import { RouterModule } from '@angular/router'
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
 @NgModule({
-  imports: [ModelModule, BrowserModule, FormsModule, RouterModule],
+  imports: [ModelModule, BrowserModule, FormsModule, RouterModule, Ng2SearchPipeModule],
   declarations: [StoreComponent, CartSummaryComponent, CartDetailComponent, CheckoutComponent],
   exports: [StoreComponent, CartDetailComponent, CheckoutComponent],
 })
