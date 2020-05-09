@@ -7,6 +7,7 @@ import { StoreComponent } from './store/store.component'
 import { CartDetailComponent } from './store/cartDetail.component'
 import { CheckoutComponent } from './store/checkout.component'
 import { StoreFirstGuard } from './storeFirst.guard'
+import { Pipe, PipeTransform } from '@angular/core';
 
 @NgModule({
   imports: [
