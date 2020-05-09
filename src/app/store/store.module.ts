@@ -7,10 +7,10 @@ import { CartSummaryComponent } from './cartSummary.component'
 import { CartDetailComponent } from './cartDetail.component'
 import { CheckoutComponent } from './checkout.component'
 import { RouterModule } from '@angular/router'
-import { Pipe, PipeTransform } from '@angular/core';
+
 
 @NgModule({
-  imports: [ModelModule, BrowserModule, FormsModule, RouterModule, Pipe],
+  imports: [ModelModule, BrowserModule, FormsModule, RouterModule],
   declarations: [StoreComponent, CartSummaryComponent, CartDetailComponent, CheckoutComponent],
   exports: [StoreComponent, CartDetailComponent, CheckoutComponent],
 })
